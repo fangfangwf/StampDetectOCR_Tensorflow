@@ -28,10 +28,12 @@ cmake进行构建。
 文件夹说明：
 
 3rdparty:
-
+	  
 	存放的是第三方库 opencv4.1.0的库和tensorflow1.10.0 CPU版的库，下载
 	链接：https://pan.baidu.com/s/1TIXq3RsR2EnqSAezMxwoRA 
         提取码：buxc
+	补充说明：windows下 tensorflow1.10.0 CPU版的库，不是我本人编译的，我尝试了很多次都失败了，
+	最后是从网上找到别的网友编译好的，在此向那位网友表示感谢！（遗憾，那个原始下载链接找不到了）
 build：
 	
 	是已经cmake构建vsproject时的目录
