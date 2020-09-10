@@ -36,13 +36,18 @@ build：
 
 model：
 
-	yolo： 存放的是yolov3的cfg文件和weights文件，以及names文件
-	crnn： 存放的是crnn的模型文件及字典文件
+	yolo： 存放的是yolov3的cfg文件和weights文件，以及names文件，下载
+	       链接：https://pan.baidu.com/s/1IiwEO4_1wV-KtfAWi9sS9Q 
+               提取码：sq9l
+	        
+	crnn： 存放的是crnn的模型文件及字典文件，下载
+	       链接：https://pan.baidu.com/s/1_iNHZMssHAZeMFVDF4ziZg 
+               提取码：wgv7
 	
 	
 images： 
 	
-	存放的是几张测试图片
+	存放的是几张测试图片，请从https://github.com/BigPandaCPU/StampDetectOCR/tree/master/images下载
 	
 src:   
 
@@ -67,5 +72,5 @@ E-mail:wangxiong@founder.com
 
 State Key Laboratory of Digital Publishing Technology
 
-Date:2020-5-18 
+Date:2020-9-10 
 
