@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(JinZhongBankSolution_CPU)
+project(JZBankSolution_CPU)
 set(CMAKE_CXX_STANDARD 11)
 
 set(ThirdParty_dir "${PROJECT_SOURCE_DIR}/3rdparty")
@@ -28,5 +28,5 @@ message(STATUS "${OpenCV_DEFINITIONS}")
 
 
 #set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/Release)
-add_executable(JinZhongBankSolution_CPU src/main.cpp src/PutText.h src/PutText.cpp src/dataStructures.h src/OCRNet.h src/OCRNet.cpp src/DetectNet.h src/DetectNet.cpp)
-target_link_libraries(JinZhongBankSolution_CPU ${OpenCV_LIBRARIES})
+add_executable(JZBankSolution_CPU src/main.cpp src/PutText.h src/PutText.cpp src/dataStructures.h src/OCRNet.h src/OCRNet.cpp src/DetectNet.h src/DetectNet.cpp)
+target_link_libraries(JZBankSolution_CPU ${OpenCV_LIBRARIES})
