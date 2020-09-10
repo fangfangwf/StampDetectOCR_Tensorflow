@@ -69,9 +69,14 @@ src:
 
 版本说明：
 
-	opencv4.1.0 release 64
-	Tensorflow1.10.0 release 64  CPU版
+	opencv4.1.0 release 64       -> 检测
+	Tensorflow1.10.0 release 64  CPU版  -> 识别
 	Cmake 3.13.0
+
+测试说明：
+	
+	检测+识别（CRNN = CNN+LSTM+FC） FPS:1.738    该速度比Opencv（检测+识别）的速度还要快
+	检测+识别（CRNN = CNN+LSTM+FC+Beam_search）  FPS:1.465
 
 Author:BigPanda
 
