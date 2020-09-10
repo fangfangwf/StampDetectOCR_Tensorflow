@@ -29,7 +29,9 @@ cmake进行构建。
 
 3rdparty:
 
-	存放的是第三方库 opencv4.1.0的库和tensorflow1.10.0的库
+	存放的是第三方库 opencv4.1.0的库和tensorflow1.10.0 CPU版的库，下载
+	链接：https://pan.baidu.com/s/1TIXq3RsR2EnqSAezMxwoRA 
+        提取码：buxc
 build：
 	
 	是已经cmake构建vsproject时的目录
