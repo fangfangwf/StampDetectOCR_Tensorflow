@@ -8,7 +8,10 @@
 识别模型：
 
 	CRNN，是调用Tensorflow的C++ API来实现
-
+	此次用到的训练CRNN模型的tensorflow代码为https://github.com/MaybeShewill-CV/CRNN_Tensorflow，
+	另外转换代码，将ckpt转换成pb文件的代码参考https://github.com/leimao/Frozen_Graph_TensorFlow/blob/master/TensorFlow_v1/test_pb.py
+	
+	
 检测的目标是***银行的票据。
 检测的目标共有4类，分别为主键、流水号、附件及附件标题。
 
