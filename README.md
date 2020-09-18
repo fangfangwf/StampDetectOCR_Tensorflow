@@ -80,7 +80,7 @@ src:
 
 Author:BigPanda
 
-E-mail:wangxiong@founder.com
+E-mail:wang.xiong@founder.com
 
 State Key Laboratory of Digital Publishing Technology
 
